@@ -2,6 +2,7 @@
 Fork from: https://github.com/easonnie/combine-FEVER-NSMN.git   
 The implementation for the paper：[Combining Fact Extraction and Verification with Neural Semantic Matching Networks](https://arxiv.org/abs/1811.07039) (AAAI 2019 and EMNLP-FEVER Shared Task Rank-1 System).
 
+
 ## Requirement
 * Python 3.6
 * pytorch 0.4.1
@@ -14,12 +15,11 @@ The implementation for the paper：[Combining Fact Extraction and Verification w
 * inflection
 
 
-
 ## Preparation
 1. 首先完成安装以上模块.
 2. 运行脚本.
 ```bash
-source ./scrips/setup.sh               # 配置项目路径及相关文件路径
+source setup.sh               # 配置项目路径及相关文件路径
 bash ./scripts/prepare.sh     # 相关数据文件下载
 ```
 注：运行脚本若无法正常下载数据及文件，可打开以下链接进行手动下载(需VPN),下载成功后按照项目结构来移动文件到相应的路径.
